@@ -41,7 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DarkModeCS.cs" />
+    <Compile Include="FlatComboBox.cs" />
+    <Compile Include="FlatProgressBar.cs" />
+    <Compile Include="FlatTabControl.cs" />
     <Compile Include="Main.cs" />
+    <Compile Include="Messenger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
