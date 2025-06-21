@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Yoiyami.rdr")]
-[assembly: AssemblyCopyright("Copyright © Milkeyyy 2025")]
+[assembly: AssemblyCopyright("Copyright © 2025 Milkeyyy")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: PluginName("Yoiyami.rdr")]
