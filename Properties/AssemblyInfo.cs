@@ -5,15 +5,15 @@ using System.Runtime.InteropServices;
 // アセンブリに関する一般情報は以下を通して制御されます
 // 制御されます。アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更してください。
-[assembly: AssemblyTitle("ProduirePluginTemplate")]
+[assembly: AssemblyTitle("Yoiyami.rdr")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ProduirePluginTemplate")]
-[assembly: AssemblyCopyright("Copyright ©  2025")]
+[assembly: AssemblyProduct("Yoiyami.rdr")]
+[assembly: AssemblyCopyright("Copyright © Milkeyyy 2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: PluginName("ProduirePluginTemplate")]
+[assembly: PluginName("Yoiyami.rdr")]
 [assembly: PluginDescription("")]
 
 // ComVisible を false に設定すると、このアセンブリ内の型は COM コンポーネントから
