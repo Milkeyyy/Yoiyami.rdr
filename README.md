@@ -4,6 +4,8 @@
 
 > [Dark-Mode-Forms](https://github.com/BlueMystical/Dark-Mode-Forms) をプロデルから使えるようにするプラグインです。
 
+![Yoiyami_Preview](https://github.com/user-attachments/assets/8e65233d-e697-46e6-8c05-360efd1a32b9)
+
 
 ## ドキュメント
 
