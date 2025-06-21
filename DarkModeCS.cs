@@ -760,7 +760,10 @@ namespace DarkModeForms
 				if (lView.View == View.Details)
 				{
 					//lView.BackColor = OScolors.Surface;
-					lView.Items[0].UseItemStyleForSubItems = false;
+					if (lView.Items.Count > 0)
+					{
+						lView.Items[0].UseItemStyleForSubItems = false;
+					}
 					lView.OwnerDraw = true;
 					lView.DrawColumnHeader += (sender, e) =>
 					{
