@@ -7,8 +7,8 @@
     <ProjectGuid>{BC0CE82A-21C7-4F43-BF2F-3FC1293C514F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ProduirePluginTemplate</RootNamespace>
-    <AssemblyName>ProduirePluginTemplate</AssemblyName>
+    <RootNamespace>Yoiyami.rdr</RootNamespace>
+    <AssemblyName>Yoiyami.rdr</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -33,6 +33,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,9 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DarkModeCS.cs" />
-    <Compile Include="FlatComboBox.cs" />
-    <Compile Include="FlatProgressBar.cs" />
-    <Compile Include="FlatTabControl.cs" />
+    <Compile Include="FlatComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Main.cs" />
     <Compile Include="Messenger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
